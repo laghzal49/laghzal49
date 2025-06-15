@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="900" height="160">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#80CBC400"/>
+      <stop offset="50%" style="stop-color:#80CBC4"/>
+      <stop offset="100%" style="stop-color:#80CBC400"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="900" height="160" fill="url(#bg)" rx="8"/>
+
+  <!-- border -->
+  <rect width="898" height="158" x="1" y="1" fill="none" stroke="#80CBC420" stroke-width="1" rx="8"/>
+
+  <!-- corner accents -->
+  <line x1="1" y1="1" x2="30" y2="1" stroke="#80CBC4" stroke-width="1.5"/>
+  <line x1="1" y1="1" x2="1" y2="30" stroke="#80CBC4" stroke-width="1.5"/>
+  <line x1="899" y1="1" x2="870" y2="1" stroke="#80CBC4" stroke-width="1.5"/>
+  <line x1="899" y1="1" x2="899" y2="30" stroke="#80CBC4" stroke-width="1.5"/>
+  <line x1="1" y1="159" x2="30" y2="159" stroke="#80CBC4" stroke-width="1.5"/>
+  <line x1="1" y1="159" x2="1" y2="130" stroke="#80CBC4" stroke-width="1.5"/>
+  <line x1="899" y1="159" x2="870" y2="159" stroke="#80CBC4" stroke-width="1.5"/>
+  <line x1="899" y1="159" x2="899" y2="130" stroke="#80CBC4" stroke-width="1.5"/>
+
+  <!-- divider line -->
+  <line x1="80" y1="115" x2="820" y2="115" stroke="url(#line)" stroke-width="1"/>
+
+  <!-- name -->
+  <text x="450" y="68" font-family="'Courier New', monospace" font-size="46" font-weight="700"
+        fill="#cdd6f4" text-anchor="middle" letter-spacing="6">tlaghzal</text>
+
+  <!-- teal underscore accent -->
+  <rect x="350" y="76" width="200" height="2" fill="#80CBC4" rx="1"/>
+
+  <!-- subtitle -->
+  <text x="450" y="140" font-family="'Courier New', monospace" font-size="13"
+        fill="#80CBC4" text-anchor="middle" letter-spacing="3">student · 1337.ma · 42 network</text>
+</svg>
