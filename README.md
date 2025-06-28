@@ -22,3 +22,15 @@ I build low-level software with focus on memory safety, performance, and clean a
 - Build robust C projects from scratch.
 - Work daily in Linux/POSIX environments.
 - Debug and validate with `gdb`, `valgrind`, and disciplined testing.
+
+## Featured Projects
+
+### ft_malloc
+Lightweight memory manager in C using an intrusive doubly linked list.
+
+- O(1) insertion/removal of tracked allocations
+- Bulk cleanup via `free_all()`
+- Panic-safe cleanup flow with `ft_panic()`
+
+### A-Maze-ing
+Maze generator in Python with a bitmask wall system.
