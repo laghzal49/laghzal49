@@ -34,3 +34,15 @@ Lightweight memory manager in C using an intrusive doubly linked list.
 
 ### A-Maze-ing
 Maze generator in Python with a bitmask wall system.
+
+- Deterministic grid logic
+- Clean generation flow and maintainable structure
+
+### My-Git
+CLI automation toolkit for Git workflows.
+
+- Speeds up repetitive repository commands
+- Improves day-to-day workflow consistency
+
+## Tech Stack
+
