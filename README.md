@@ -46,3 +46,19 @@ CLI automation toolkit for Git workflows.
 
 ## Tech Stack
 
+- **Languages**: C, Python, Go (learning)
+- **Systems**: Linux, POSIX, pthread
+- **Tooling**: Make, GDB, Valgrind, Git
+- **Other**: Arduino, Adobe Premiere Pro
+
+## Contact
+
+- **GitHub**: https://github.com/Laghzal49
+- **Instagram**: @Gl1tch_49
+- **Email**: tlaghzal@student.1337.ma
+
+---
+
+<div align="center">
+  <sub>Write it clean. Debug it hard. Ship it stable.</sub>
+</div>
