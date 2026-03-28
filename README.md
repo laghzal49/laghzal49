@@ -1,75 +1,64 @@
 <div align="center">
-  <img src="./header.svg" alt="tlaghzal" width="100%"/>
+  <img src="./Header.svg" alt="tlaghzal header" width="100%"/>
 </div>
 
-<br/>
+<h1 align="center">tlaghzal</h1>
 
-> [!NOTE]
-> systems programmer · i write C until it segfaults, then i write it again
+<p align="center">
+  Systems Programming Student @ 1337 (42 Network) • C / Linux / Low-Level Engineering
+</p>
 
-<br/>
+<p align="center">
+  <a href="https://github.com/Laghzal49"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Laghzal49-181717?style=for-the-badge&logo=github"></a>
+  <img alt="C" src="https://img.shields.io/badge/C-Systems%20Programming-00599C?style=for-the-badge&logo=c">
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-POSIX-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img alt="School" src="https://img.shields.io/badge/42-1337.ma-000000?style=for-the-badge&logo=42">
+</p>
 
-## `$ whoami`
+## About Me
 
-```diff
-+ login    →  tlaghzal
-+ school   →  1337.ma (42 network)
-+ focus    →  low-level systems, memory management, concurrency
-+ status   →  in progress
-```
+I build low-level software with a strong focus on memory safety, performance, and clean architecture.
 
-<br/>
+- Developing robust C projects from scratch.
+- Working daily in Linux/POSIX environments.
+- Debugging and validating with `gdb`, `valgrind`, and disciplined testing.
 
-## `$ ls ./projects`
+## Featured Projects
 
-```diff
-+ ft_malloc    garbage collector — intrusive doubly linked list      [C]
-+ A-Maze-ing   maze generator with bitmask wall system               [Python]
-```
+### ft_malloc
+Lightweight memory manager / garbage collector in C using an intrusive doubly linked list.
 
-> [!TIP]
-> Each project built from scratch — no external libraries, no shortcuts.
+- O(1) insertion and removal of tracked allocations
+- Bulk cleanup with a single `free_all()`
+- Panic-safe cleanup path with `ft_panic()`
 
-<br/>
+### A-Maze-ing
+Maze generator in Python with a bitmask wall system.
 
-## `$ cat ./stack`
+- Deterministic grid logic and clear generation flow
+- Focus on algorithmic correctness and clean code organization
 
-$${\color{#80CBC4}languages}$$
+### My-Git
+CLI automation toolkit for Git workflows.
 
-```
-C  ████████████████████  primary
-Python  ████████████░░░░░░░░  active
-Go  ██████░░░░░░░░░░░░░░  learning
-```
+- Speeds up repetitive repository commands
+- Improves consistency in day-to-day version control operations
 
-$${\color{#80CBC4}tools}$$
+## Tech Stack
 
-```
-Linux · POSIX · pthread · Make · GDB · Valgrind · Git
-```
+- **Languages:** C, Python, Go (learning)
+- **Systems:** Linux, POSIX, pthread
+- **Tooling:** Make, GDB, Valgrind, Git
+- **Other:** Arduino, Adobe Premiere Pro
 
-$${\color{#80CBC4}other}$$
+## Contact
 
-```
-Arduino · Adobe Premiere Pro
-```
+- **GitHub:** https://github.com/Laghzal49
+- **Instagram:** @Gl1tch_49
+- **Email:** tlaghzal@student.1337.ma
 
-<br/>
-
-## `$ cat ./contact`
-
-```diff
-+ github     →  github.com/Laghzal49
-+ instagram  →  @Gl1tch_49
-+ email      →  tlaghzal@student.1337.ma
-```
-
-<br/>
+---
 
 <div align="center">
-
-$${\color{#80CBC4}————————————————————————————}$$
-
-`segmentation fault (core dumped)`
-
+  <sub>Write it clean. Debug it hard. Ship it stable.</sub>
 </div>
